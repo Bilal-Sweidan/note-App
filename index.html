@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>take note</title>
+</head>
+<body>
+    <header>
+        <h1>notes app</h1>
+        <p>take notes and never forget</p>
+    </header>
+    <div id="filter">
+        <input type="text" id="filterText" placeholder="Filter Todo">
+        <select name="" id="sort">
+            <option value="">Sort from old to new</option>
+            <option value="">Sort from new to old</option>
+        </select>
+    </div>
+    <section id="the-note">
+
+
+    </section>
+    <div id="create-note">
+        <button id="create" > create note </button>
+    </div>
+
+
+    <!-- prompt window for create new notes -->
+    <div id="window-create">
+        <section>
+            <div id="create-content">
+                <input type="text" name="" id="title" placeholder="Note title">
+                <br>
+                <textarea name="" id="textArea" cols="50" rows="20" placeholder="Enter Note Text"></textarea>
+                <div id="dovB">
+                    <button id="add"> ADD </button>
+                    <button id="remove"> Remove </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
